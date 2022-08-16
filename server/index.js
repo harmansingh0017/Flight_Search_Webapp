@@ -6,7 +6,7 @@ const flightSchema = require("./Schemas/flightSchema");
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://harmans497:Realmadrid@cluster0.8tjw52o.mongodb.net/stars?retryWrites=true&w=majority"
+  "mongodb+srv://User:Password@cluster0.8tjw52o.mongodb.net/stars?retryWrites=true&w=majority"
 );
 
 app.post("/getflightDetail", (req, res) => {
